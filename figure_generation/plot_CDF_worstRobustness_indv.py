@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Apr  18 17:36:28 2022
+Plots the CDFs for the three satisficing criteria of each of the three utilities.
 
 @author: lbl59
 """
@@ -169,21 +170,21 @@ def plot_cdf(objs_by_rdm_dir, og_compSol, worst_robustness,
             ax.plot(x_worst_W[i,:], y_worst_W[i,:], c=c_worst, linewidth=3, label=lab_w, linestyle="--")
             
         elif i == 1 or i == 4:
-            ax.set_xticks(np.linspace(0, 60, num=6))
-            ax.set_xticklabels(['', '', '', '', '', ''])
+            ax.set_xticks(np.linspace(0, 80, num=8))
+            ax.set_xticklabels(['', '', '', '', '', '', '', ''])
             ax.set_yticks(np.linspace(0, 1, num=5))
             ax.set_yticklabels(['', '', '', '', ''])
             ax.axvline(x=10, ymin=0, ymax=1, color="black", linewidth=2, linestyle="--")
-            ax.set_xlim(0, 60)
+            ax.set_xlim(0, 80)
             ax.plot(x_worst_D[i,:], y_worst_D[i,:], c=c_worst, linewidth=3, label=lab_w, linestyle="--")
             
         elif i == 2 or i == 5:
-            ax.set_xticks(np.linspace(0, 60, num=6))
-            ax.set_xticklabels(['', '', '', '', '', ''])
+            ax.set_xticks(np.linspace(0, 80, num=8))
+            ax.set_xticklabels(['', '', '', '', '', '', '', ''])
             ax.set_yticks(np.linspace(0, 1, num=5))
             ax.set_yticklabels(['', '', '', '', ''])
             ax.axvline(x=10, ymin=0, ymax=1, color="black", linewidth=2, linestyle="--")
-            ax.set_xlim(0, 60)
+            ax.set_xlim(0, 80)
             ax.plot(x_worst_F[i,:], y_worst_F[i,:], c=c_worst, linewidth=3, label=lab_w, linestyle="--")
             
         elif i == 6:
@@ -201,22 +202,22 @@ def plot_cdf(objs_by_rdm_dir, og_compSol, worst_robustness,
         elif i == 7:
             ax.set_xlabel('Restriction freq', size=12)
             ax.axvline(x=10, ymin=0, ymax=1, color="black", linewidth=2, linestyle="--")
-            ax.set_xticks(np.linspace(0, 60, num=6))
-            ax.set_xticklabels(['0%', '', '', '', '', '60%'])
+            ax.set_xticks(np.linspace(0, 80, num=8))
+            ax.set_xticklabels(['0%', '', '', '', '', '', '', '80%'])
             ax.set_yticks(np.linspace(0, 1, num=5))
             ax.set_yticklabels(['', '', '', '', ''])
-            ax.set_xlim(0, 60)
+            ax.set_xlim(0, 80)
             ax.plot(x_worst_D[i,:], y_worst_D[i,:], c=c_worst, linewidth=3, label=lab_w, linestyle="--")
 
         elif i == 8:
             ax.set_xlabel('Worst-case cost', size=12)
             ax.axvline(x=10, ymin=0, ymax=1, color="black", linewidth=2, linestyle="--", 
                        label='Satisficing\ncriteria')
-            ax.set_xticks(np.linspace(0, 60, num=6))
-            ax.set_xticklabels(['0%', '', '', '', '', '60%'])
+            ax.set_xticks(np.linspace(0, 80, num=8))
+            ax.set_xticklabels(['0%', '', '', '', '', '', '', '80%'])
             ax.set_yticks(np.linspace(0, 1, num=5))
             ax.set_yticklabels(['', '', '', '', ''])
-            ax.set_xlim(0, 60)
+            ax.set_xlim(0, 80)
             ax.plot(x_worst_F[i,:], y_worst_F[i,:], c=c_worst, linewidth=3, label=lab_w, linestyle="--")
         '''
         else:
