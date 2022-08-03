@@ -198,10 +198,12 @@ utilities = ['Watertown', 'Dryville', 'Fallsland', 'Regional']
 N_RDMS = 1000
 N_SOLNS = 1000
 
+'''
 # different DU scenarios
 bad_scenario = 223   # evap multiplier = 1.2, demand multiplier = 1.95
 optimistic_scenario = 782   # evap multiplier = 0.82, demand multiplier = 0.54
 baseline_scenario = 229     # evap multiplier = 1.0, demand multiplier = 0.99
+'''
 
 '''
 Load DU factor files and DV files
@@ -272,9 +274,11 @@ for c in range(len(compSol_names)):
 
     objs_filename = ""
     if mode == 'DV':
-        #objs_filename = out_directory + 'meanObjs_acrossRDM_' + compSol_full + '.csv'
+        objs_filename = out_directory + 'meanObjs_acrossRDM_' + compSol_full + '.csv'
+        '''
         objs_filename = '/home/fs02/pmr82_0001/lbl59/Implementation_Uncertainty/WaterPaths_duReeval/Objectives_' + \
             compSol + '_perturbed_Apr2022/Objectives_RDM' + str(baseline_scenario) + '_sols0_to_1000.csv'
+        '''
     elif mode == 'DUF':
         objs_filename = out_directory + 'meanObjs_acrossSoln_' + compSol_full + '.csv'
     
