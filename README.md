@@ -5,7 +5,7 @@ To recreate all figures, run the Python scripts within the `figure_generation` d
 
 To replicate the cmoputational experiment, follow the steps outlined below. Note that this experiment was run using high performance computing and cannot easily be replicated on a personal computer. To accurately replicate the experiment, please use parallel master-worker version of [Borg MOEA] (http://borgmoea.org). You can request access to the source code [here] (http://borgmoea.org/#contact).
 
-## Folders
+## Folders :file_folder:
 1. process_output: Contains all python code files used for post-processing the output of the DU Reevaluation
 2. figure_generation: Contains all python code files used for generating figures
 3. Figures: Contains the PDFs of all figures generated using code in Folder 2
