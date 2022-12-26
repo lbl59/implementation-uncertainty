@@ -6,12 +6,14 @@ To recreate all figures, run the Python scripts within the `figure_generation` d
 To replicate the cmoputational experiment, follow the steps outlined below. Note that this experiment was run using high performance computing and cannot easily be replicated on a personal computer. To accurately replicate the experiment, please use parallel master-worker version of [Borg MOEA](http://borgmoea.org). You can request access to the source code [here](http://borgmoea.org/#contact).
 
 ## Folders :file_folder:
-1. process_output: Contains all python code files used for post-processing the output of the DU Reevaluation
-2. figure_generation: Contains all python code files used for generating figures
-3. Figures: Contains the PDFs of all figures generated using code in Folder 2
+1. src: Contains all the files necessary to build WaterPaths
+2. process_output: Contains all python code files used for post-processing the output of the DU Reevaluation
+3. figure_generation: Contains all python code files used for generating figures
+4. Figures: Contains the PDFs of all figures generated using code in Folder 2
 
 ## Setup :hammer:
-
+1. Clone this repository and unzip all files. In the command line, enter the directory where this repository is stored. 
+2. Type `make gcc` into the command line to compile WaterPaths.
 
 ## DU Optimization and Re-Evaluation :dart:
 The figure below illustrates (a) the DU Optimization and (b) DU Re-Evaluation sampling scheme.
