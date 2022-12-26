@@ -15,13 +15,12 @@ To replicate the cmoputational experiment, follow the steps outlined below. Note
 
 ## DU Optimization and Re-Evaluation :dart:
 The figure below illustrates (a) the DU Optimization and (b) DU Re-Evaluation sampling scheme.
-![sampling_DU](Figures/sampling_DU.jpg width="400" height="200")
+<img src="Figures/sampling_DU.jpg" width="400">
 
 
 ## Implementation Uncertainty Analysis :mag:
 The figure below illustrates implementation uncertainty sampling scheme.
-![sampling_IU](Figures/sampling_IU.jpg width="400" height="200")
-
+<img src="Figures/sampling_IU.jpg" width="400">
 
 ### 1. Generate the implementation uncertainty sampling range
 ### 2. Bootstrap analysis
