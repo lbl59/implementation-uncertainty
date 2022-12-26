@@ -15,11 +15,14 @@ To replicate the cmoputational experiment, follow the steps outlined below. Note
 
 ## DU Optimization and Re-Evaluation :dart:
 The figure below illustrates (a) the DU Optimization and (b) DU Re-Evaluation sampling scheme.
-![du_sampling](https://github.com/lbl59/implementation-uncertainty/blob/main/Figures/sampling_DU.jpg raw=true "DU Sampling")
+![sampling_DU](https://user-images.githubusercontent.com/71844489/209578491-ca26514e-782b-413b-ae49-dd863e08fc1c.jpg)
+
 
 ## Implementation Uncertainty Analysis :mag:
 The figure below illustrates implementation uncertainty sampling scheme.
-![iu_sampling](https://github.com/lbl59/implementation-uncertainty/blob/main/Figures/sampling_IU.jpg raw=true "IU Sampling")
+![sampling_IU](https://user-images.githubusercontent.com/71844489/209578497-9945baa5-bbd2-43db-89c4-89ca6e27fae4.jpg)
+
+
 ### 1. Generate the implementation uncertainty sampling range
 ### 2. Bootstrap analysis
 ### 3. Generate ROF tables for bootstrapped realizations
