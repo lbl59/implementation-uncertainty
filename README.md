@@ -3,13 +3,15 @@ This GitHub repository contains the code and data needed to recreate all figures
 
 To recreate all figures, run the Python scripts within the `figure_generation` directory. Data from Trindade et al. (2020) can be found in the `results` directory. 
 
-To replicate the cmoputational experiment, follow the steps outlined below. Note that this experiment was run using high performance computing and cannot easily be replicated on a personal computer. To accurately replicate the experiment, please use parallel master-worker version of [Borg MOEA](http://borgmoea.org). You can request access to the source code [here](http://borgmoea.org/#contact).
+To replicate the cmoputational experiment, follow the steps outlined below. Note that this experiment was run using high performance computing and cannot easily be replicated on a personal computer. To accurately replicate the experiment, please use parallel master-worker version of [Borg MOEA](http://borgmoea.org). You can request access to the source code [here](http://borgmoea.org/#contact). 
+
+*Note: All filepaths in the code files provided should be modified to reflect current individual data and information locations.*
 
 ## Folders :file_folder:
-1. `src`: Contains all the files necessary to build WaterPaths
-2. `process_output`: Contains all python code files used for post-processing the output of the DU Reevaluation
-3. `figure_generation`: Contains all python code files used for generating figures
-4. `Figures`: Contains all figures included in the paper. Only Figures 5 to 13 are generated using the files in `process_output`.
+1. `src` Contains all the files necessary to build WaterPaths
+2. `process_output` Contains all python code files used for post-processing the output of the DU Reevaluation
+3. `figure_generation` Contains all python code files used for generating figures
+4. `Figures` Contains all figures included in the paper. Only Figures 5 to 13 are generated using the files in `process_output`.
 
 ## Setup :hammer:
 1. Clone this repository and unzip all files. In the command line, enter the directory where this repository is stored. 
