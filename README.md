@@ -26,6 +26,10 @@ The figure below illustrates implementation uncertainty sampling scheme.
 <p align="center">
 <img src="Figures/sampling_IU.jpg" width="600">
 </p>
+
 ### Generate the implementation uncertainty sampling range
+
 ### Bootstrap analysis
+
 ### Generate ROF tables for bootstrapped realizations
+
