@@ -9,3 +9,17 @@ To replicate the cmoputational experiment, follow the steps outlined below. Note
 1. process_output: Contains all python code files used for post-processing the output of the DU Reevaluation
 2. figure_generation: Contains all python code files used for generating figures
 3. Figures: Contains the PDFs of all figures generated using code in Folder 2
+
+## Setup :hammer:
+
+
+## DU Optimization and Re-Evaluation :dart:
+The figure below illustrates (a) the DU Optimization and (b) DU Re-Evaluation sampling scheme.
+![du_sampling](https://github.com/lbl59/implementation-uncertainty/blob/main/Figures/sampling_DU.jpg
+
+## Implementation Uncertainty Analysis :mag:
+The figure below illustrates implementation uncertainty sampling scheme.
+![iu_sampling](https://github.com/lbl59/implementation-uncertainty/blob/main/Figures/sampling_IU.jpg
+### 1. Generate the implementation uncertainty sampling range
+### 2. Bootstrap analysis
+### 3. Generate ROF tables for bootstrapped realizations
