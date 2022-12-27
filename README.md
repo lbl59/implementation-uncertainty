@@ -20,9 +20,11 @@ To replicate the cmoputational experiment, follow the steps outlined below. Note
 ### Download and compile WaterPaths
 1. Clone this repository and unzip all files. In the command line, enter the directory where this repository is stored. 
 2. Type `make gcc` into the command line to compile WaterPaths.
+3. Refresh the directory. Confirm that the `waterpaths` file is created.
 ### Download and install MOEAFramework
 1. Select 'Source Code' to download the MOEAFramework directory onto your personal machine.
-2. Type `make gcc` into the command line to compile WaterPaths.
+2. Unzip the file and locate the `MOEAFramework-2.13-Demo.jar` file. Change the version number (2.13) to the latest number if relevant.
+3. Copy and paste the `.jar` file into the `preprocessing` directory.
 ### Install Borg MOEA
 1. Once access is obtained, clone and unzip the Borg MOEA repository. 
 2. Copy the contents of the Borg MOEA repository into the `implementation-uncertainty` directory under a directory called `Borg`.
