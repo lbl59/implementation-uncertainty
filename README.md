@@ -1,5 +1,8 @@
 # Lau et al. (2022) Implementation Uncertainty
-This GitHub repository contains the code and data needed to recreate all figures and replicate the computation experiments for Lau et al. (2022). 
+This GitHub repository contains the code and data needed to recreate all figures and replicate the computation experiments for Lau et al. (2022). To cite this paper, please use the following citation:
+```
+This the the citation for the paper
+```
 
 To recreate all figures, run the Python scripts within the `figure_generation` directory. Data from Trindade et al. (2020) can be found in the `results` directory. 
 
