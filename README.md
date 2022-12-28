@@ -8,7 +8,7 @@ To recreate all figures, run the Python scripts within the `figure_generation` d
 
 To replicate the cmoputational experiment, follow the steps outlined below. Note that this experiment was run using high performance computing and cannot easily be replicated on a personal computer. To accurately replicate the experiment, please use parallel master-worker version of [Borg MOEA](http://borgmoea.org). You can request access to the source code [here](http://borgmoea.org/#contact). 
 
-*Note: All filepaths in the code files provided should be modified to reflect current individual data and information locations. Only one bootstrapped realization is provided due to memory constraints. Please contact corresponding author at lbl59@cornell.edu for full set of realizations.*
+*Note: All filepaths in the code files provided should be modified to reflect current individual data and information locations. Only one bootstrapped realization is provided due to memory constraints. Please contact the corresponding author at lbl59@cornell.edu for full set of realizations.*
 
 ## Folders :file_folder:
 - `bootstrapping` Contains all code required to bootstrap the full set of 1000 DU SOWs.
