@@ -6,7 +6,7 @@ This the the citation for the paper
 
 To recreate all figures, run the Python scripts within the `figure_generation` directory. Data from Trindade et al. (2020) can be found in the `results` directory. 
 
-To replicate the cmoputational experiment, follow the steps outlined below. Note that this experiment was run using high performance computing and cannot easily be replicated on a personal computer. To accurately replicate the experiment, please use parallel master-worker version of [Borg MOEA](http://borgmoea.org). You can request access to the source code [here](http://borgmoea.org/#contact). 
+To replicate the cmoputational experiment, follow the steps outlined below. Note that this experiment was run using high performance computing and cannot easily be replicated on a personal computer.
 
 *Note: All filepaths in the code files provided should be modified to reflect current individual data and information locations. Only one bootstrapped realization is provided due to memory constraints. Please contact the corresponding author at lbl59@cornell.edu for full set of realizations.*
 
@@ -36,13 +36,6 @@ To replicate the cmoputational experiment, follow the steps outlined below. Note
 1. Select 'Source Code' to download the [MOEAFramework](http://moeaframework.org/downloads.html) directory onto your personal machine.
 2. Unzip the file and locate the `MOEAFramework-2.13-Demo.jar` file. Change the version number (2.13) to the latest number if relevant.
 3. Copy and paste the `.jar` file into the `IU_Samples/` directory.
-
-### Install Borg MOEA
-1. Once access is obtained, clone and unzip the Borg MOEA repository. 
-2. Copy the contents of the Borg MOEA repository into the `implementation-uncertainty/` directory under a directory called `Borg`.
-3. Download and install [OpenMPI](https://www.open-mpi.org/software/ompi/v4.1/). Please skip this step if you already have OpenMPI installed. 
-4. Access the `Borg` directory via the command line. Enter `ls` into the command line and verify that the directory contains the `borg.exe` file. 
-5. Run `make` in the command line. This will install Borg onto the machine you are using. 
 
 ## Implementation Uncertainty Analysis :mag:
 The figure below illustrates implementation uncertainty sampling scheme.
