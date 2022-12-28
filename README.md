@@ -33,7 +33,7 @@ To replicate the cmoputational experiment, follow the steps outlined below. Note
 6. On Line 825, paste the filepath copied in Step 4 to replace all the contents in the quotation marks prior to `rdm_` 
 
 ### Download and install MOEAFramework
-1. Select 'Source Code' to download the MOEAFramework directory onto your personal machine.
+1. Select 'Source Code' to download the [MOEAFramework](http://moeaframework.org/downloads.html) directory onto your personal machine.
 2. Unzip the file and locate the `MOEAFramework-2.13-Demo.jar` file. Change the version number (2.13) to the latest number if relevant.
 3. Copy and paste the `.jar` file into the `IU_Samples/` directory.
 
