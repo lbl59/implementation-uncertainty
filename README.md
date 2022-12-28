@@ -1,5 +1,5 @@
 # Lau et al. (2022) Implementation Uncertainty
-This GitHub repository contains the code and data needed to recreate all figures and replicate the computation experiments for Lau et al. (2022). To cite this paper, please use the following citation:
+This GitHub repository contains the code and data needed to recreate all figures and replicate the computational experiments for Lau et al. (2022). To cite this paper, please use the following citation:
 ```
 This the the citation for the paper
 ```
