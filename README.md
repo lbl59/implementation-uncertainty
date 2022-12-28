@@ -8,13 +8,20 @@ To recreate all figures, run the Python scripts within the `figure_generation` d
 
 To replicate the cmoputational experiment, follow the steps outlined below. Note that this experiment was run using high performance computing and cannot easily be replicated on a personal computer. To accurately replicate the experiment, please use parallel master-worker version of [Borg MOEA](http://borgmoea.org). You can request access to the source code [here](http://borgmoea.org/#contact). 
 
-*Note: All filepaths in the code files provided should be modified to reflect current individual data and information locations.*
+*Note: All filepaths in the code files provided should be modified to reflect current individual data and information locations. Only one bootstrapped realization is provided due to memory constraints. Please contact corresponding author at lbl59@cornell.edu for full set of realizations.*
 
 ## Folders :file_folder:
-1. `figure_generation` Contains all python code files used for generating figures
-2. `Figures` Contains all figures included in the paper. Only Figures 5 to 13 are generated using the files in `process_output`.
-3. `process_output` Contains all python code files used for post-processing the output of the DU Reevaluation
-4. `src` Contains all the files necessary to build WaterPaths
+- `bootstrapping` Contains all code required to bootstrap the full set of 1000 DU SOWs.
+- `bootstrapped_reals` Contains one bootstrapped DU SOW.
+- `du_reeval` Contains all code and scripts required to run DU Re-Evaluation
+- `figure_generation` Contains all python code files used for generating figures
+- `Figures` Contains all figures included in the paper. Only Figures 5 to 13 are generated using the files in `process_output`.
+- `IU_Samples` Contains all code and files necessary to generate compromise solution perturbations.
+- `Makefile` The WaterPaths Makefile
+- `post_processing` Contains all python code files used for post-processing the output of the DU Re-Evaluation
+- rof_table_generation Contains all code and scripts required to generate ROF Tables
+- `src` Contains all the files necessary to build WaterPaths
+- `TestFiles` Contains the CSV files required to run DU Re-Evaluation
 
 ## Setup :hammer:
 ### Download and compile WaterPaths
