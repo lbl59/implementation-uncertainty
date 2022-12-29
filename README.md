@@ -20,7 +20,7 @@ This GitHub repository contains the code and data needed to replicate the comput
 
 ## Contributing software :floppy_disk:
 |  Software/Model  |  Version  |  Clone the repo  |  DOI  | 
-| ---------------- | --------- | ---------------- |
+| ---------------- | --------- | ---------------- |------ |
 | WaterPaths | NA | https://github.com/bernardoct/WaterPaths.git | doi.org/10.1016/j.envsoft.2020.104772 |
 | MOEAFramework | 3.2 | http://moeaframework.org/downloads.html | NA |
 
