@@ -1,6 +1,8 @@
 # Lau et al. (2022) WRR 
 **Discovering Safe Operating Spaces in Deeply Uncertain Pathways: Evaluating How Implementation Uncertainties Shape Cooperative Multi-City Water Supply Portfolio Management and Investment**
+
 Lillian B. Lau<sup>1,*</sup>, Patrick M. Reed<sup>1</sup>, David F. Gold<sup>1</sup>
+
 <sup>1</sup>Department of Civil and Environmental Engineering, Cornell University, Ithaca, NY, USA
 
 *corresponding author: lbl59@cornell.edu
