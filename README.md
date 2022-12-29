@@ -5,8 +5,8 @@ Lillian B. Lau<sup>1,*</sup>, Patrick M. Reed<sup>1</sup>, David F. Gold<sup>1</
 
 *corresponding author: lbl59@cornell.edu
 
-## Cite us!
-To cite this paper, please use the following citation :memo:
+## Cite us! :memo:
+To cite this paper, please use the following citation 
 ```
 This the the citation for the paper
 ```
