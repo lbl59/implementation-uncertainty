@@ -78,7 +78,7 @@ The figure below illustrates implementation uncertainty sampling scheme.
 6. Tthe objective values of all perturbed versions of the compromise solution can be found in the `output/` directory.
 *Note: Rename the `output/` directory before resubmitting the `du_reeval_submission.sh` file to re-evaluate another compromise solution.*
 
-## Post-process the results for figure generation
+## Post-process the results for figure generation :1234:
 Create a new folder in the main `implementation-uncertainty/` directory named according to the current compromise solution (LS98 or PW113).
 
 ### Gather and organize objective values for the original and perturbed versions of a compromise solution
@@ -96,7 +96,7 @@ Create a new folder in the main `implementation-uncertainty/` directory named ac
 2. Change lines 130 and 131 to reflect the compromise solution being analyzed.
 3. Change lines 133 to 147 to reflect the objectives and robustness files, and the compromise solution being analyzed.
 
-## Reproduce figures
+## Reproduce figures :bar_chart:
 1. Navigate to the `implementation-uncertainty/figure_generation/` directory.
 2. Each file generates its corresponding figure in the `Figures/` directory.
 
