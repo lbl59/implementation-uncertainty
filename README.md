@@ -1,14 +1,26 @@
-# Lau et al. (2022) Implementation Uncertainty
-This GitHub repository contains the code and data needed to recreate all figures and replicate the computational experiments for Lau et al. (2022). To cite this paper, please use the following citation:
+# Lau et al. (2022) WRR 
+**Discovering Safe Operating Spaces in Deeply Uncertain Pathways: Evaluating How Implementation Uncertainties Shape Cooperative Multi-City Water Supply Portfolio Management and Investment**
+Lillian B. Lau<sup>1,*</sup>, Patrick M. Reed, David F. Gold
+<sup>1</sup>Department of Civil and Environmental Engineering, Cornell University, Ithaca, NY, USA
+
+*corresponding author: lbl59@cornell.edu
+
+## Cite us!
+To cite this paper, please use the following citation :memo:
 ```
 This the the citation for the paper
 ```
 
-To recreate all figures, run the Python scripts within the `figure_generation` directory. Data from Trindade et al. (2020) can be found in the `results` directory. 
-
-To replicate the cmoputational experiment, follow the steps outlined below. Note that this experiment was run using high performance computing and cannot easily be replicated on a personal computer.
+## Replicate our experiments and recreate our figures :white_check_mark:
+This GitHub repository contains the code and data needed to replicate the computational experiments and recreate all figures for Lau et al. (2022). Note that this experiment was run using high performance computing and cannot easily be replicated on a personal computer.
 
 *Note: All filepaths in the code files provided should be modified to reflect current individual data and information locations. Only one bootstrapped realization is provided due to memory constraints. Please contact the corresponding author at lbl59@cornell.edu for full set of realizations.*
+
+## Contributing software :floppy_disk:
+|  Software/Model  |  Version  |  Clone the repo  |  DOI  | 
+| ---------------- | --------- | ---------------- |
+| WaterPaths | NA | https://github.com/bernardoct/WaterPaths.git | doi.org/10.1016/j.envsoft.2020.104772 |
+| MOEAFramework | 3.2 | http://moeaframework.org/downloads.html | NA |
 
 ## Folders :file_folder:
 - `bootstrapping` Contains all code required to bootstrap the full set of 1000 DU SOWs.
@@ -84,7 +96,7 @@ Create a new folder in the main `implementation-uncertainty/` directory named ac
 2. Change lines 130 and 131 to reflect the compromise solution being analyzed.
 3. Change lines 133 to 147 to reflect the objectives and robustness files, and the compromise solution being analyzed.
 
-## Generate figures
+## Reproduce figures
 1. Navigate to the `implementation-uncertainty/figure_generation/` directory.
 2. Each file generates its corresponding figure in the `Figures/` directory.
 
