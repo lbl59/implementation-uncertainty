@@ -100,6 +100,6 @@ Create a new folder in the main `implementation-uncertainty/` directory named ac
 
 ## :bar_chart: Reproduce figures 
 1. Navigate to the `implementation-uncertainty/figure_generation/` directory.
-2. Each file generates its corresponding figure in the `Figures/` directory.
+2. Execute each code file to generate its corresponding figure in the `Figures/` directory.
 
 
