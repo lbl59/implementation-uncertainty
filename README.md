@@ -7,13 +7,13 @@ Lillian B. Lau<sup>1,*</sup>, Patrick M. Reed<sup>1</sup>, David F. Gold<sup>1</
 
 *corresponding author: lbl59@cornell.edu
 
-## Cite us! :memo:
+## :memo: Cite us!
 To cite this paper, please use the following citation 
 ```
 This the the citation for the paper
 ```
 
-## Replicate our experiments and recreate our figures :white_check_mark:
+## :white_check_mark: Replicate our experiments and recreate our figures 
 This GitHub repository contains the code and data needed to replicate the computational experiments and recreate all figures for Lau et al. (2022). Note that this experiment was run using high performance computing and cannot easily be replicated on a personal computer.
 
 *Note: All filepaths in the code files provided should be modified to reflect current individual data and information locations. Only one bootstrapped realization is provided due to memory constraints. Please contact the corresponding author at lbl59@cornell.edu for full set of realizations.*
@@ -24,7 +24,7 @@ This GitHub repository contains the code and data needed to replicate the comput
 | WaterPaths | NA | https://github.com/bernardoct/WaterPaths.git | doi.org/10.1016/j.envsoft.2020.104772 |
 | MOEAFramework | 3.2 | http://moeaframework.org/downloads.html | NA |
 
-## Folders :file_folder:
+## :file_folder: Folders 
 - `bootstrapping` Contains all code required to bootstrap the full set of 1000 DU SOWs.
 - `bootstrapped_reals` Contains one bootstrapped DU SOW.
 - `du_reeval` Contains all code and scripts required to run DU Re-Evaluation
@@ -37,7 +37,7 @@ This GitHub repository contains the code and data needed to replicate the comput
 - `src` Contains all the files necessary to build WaterPaths
 - `TestFiles` Contains the CSV files required to run DU Re-Evaluation
 
-## Setup :hammer:
+## :hammer: Setup 
 ### Download and compile WaterPaths
 1. Clone this repository and unzip all files. In the command line, enter the directory where this repository is stored. 
 2. Type `make gcc` into the command line to compile WaterPaths.
@@ -51,7 +51,7 @@ This GitHub repository contains the code and data needed to replicate the comput
 2. Unzip the file and locate the `MOEAFramework-2.13-Demo.jar` file. Change the version number (2.13) to the latest number if relevant.
 3. Copy and paste the `.jar` file into the `IU_Samples/` directory.
 
-## Implementation Uncertainty Analysis :mag:
+## :mag: Implementation Uncertainty Analysis 
 The figure below illustrates implementation uncertainty sampling scheme.
 <p align="center">
 <img src="Figures/Fig04_sampling_IU.jpg" width="600">
@@ -80,7 +80,7 @@ The figure below illustrates implementation uncertainty sampling scheme.
 6. Tthe objective values of all perturbed versions of the compromise solution can be found in the `output/` directory.
 *Note: Rename the `output/` directory before resubmitting the `du_reeval_submission.sh` file to re-evaluate another compromise solution.*
 
-## Post-process the results for figure generation :1234:
+## :1234: Post-process the results for figure generation 
 Create a new folder in the main `implementation-uncertainty/` directory named according to the current compromise solution (LS98 or PW113).
 
 ### Gather and organize objective values for the original and perturbed versions of a compromise solution
@@ -98,7 +98,7 @@ Create a new folder in the main `implementation-uncertainty/` directory named ac
 2. Change lines 130 and 131 to reflect the compromise solution being analyzed.
 3. Change lines 133 to 147 to reflect the objectives and robustness files, and the compromise solution being analyzed.
 
-## Reproduce figures :bar_chart:
+## :bar_chart: Reproduce figures 
 1. Navigate to the `implementation-uncertainty/figure_generation/` directory.
 2. Each file generates its corresponding figure in the `Figures/` directory.
 
