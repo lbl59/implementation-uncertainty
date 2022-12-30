@@ -18,7 +18,7 @@ This GitHub repository contains the code and data needed to replicate the comput
 
 *Note: All filepaths in the code files provided should be modified to reflect current individual data and information locations. Only one bootstrapped realization is provided due to memory constraints. Please contact the corresponding author at lbl59@cornell.edu for full set of realizations.*
 
-## Contributing software :floppy_disk:
+## :floppy_disk: Contributing software 
 |  Software/Model  |  Version  |  Clone the repo  |  DOI  | 
 | ---------------- | --------- | ---------------- |------ |
 | WaterPaths | NA | https://github.com/bernardoct/WaterPaths.git | doi.org/10.1016/j.envsoft.2020.104772 |
