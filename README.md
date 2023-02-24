@@ -10,7 +10,7 @@ Lillian B. Lau<sup>1,*</sup>, Patrick M. Reed<sup>1</sup>, David F. Gold<sup>1</
 ## :memo: Cite us!
 To cite this paper, please use the following citation 
 ```
-TBA
+To be announced
 ```
 
 ## :white_check_mark: Replicate our experiments and recreate our figures 
@@ -19,10 +19,12 @@ This GitHub repository contains the code and data needed to replicate the comput
 *Note: All filepaths in the code files provided should be modified to reflect current individual data and information locations. Only one bootstrapped realization is provided due to memory constraints. Please contact the corresponding author at lbl59@cornell.edu for full set of realizations.*
 
 ## :floppy_disk: Contributing software 
-|  Software/Model  |  Version  |  Clone the repo  |  DOI  | 
+|  Software/Model  |  Version  |  Get the software  |  DOI  | 
 | ---------------- | --------- | ---------------- |------ |
+| Borg MOEA | NA | http://borgmoea.org/#contact | 10.1162/EVCO_a_00075 |
+| MOEAFramework | 3.3 | http://moeaframework.org/downloads.html | NA |
+| SALib | 1.4.7 | https://github.com/SALib/SALib | doi:10.18174/sesmo.18155 \\ doi:10.21105/joss.00097 |
 | WaterPaths | NA | https://github.com/bernardoct/WaterPaths.git | doi.org/10.1016/j.envsoft.2020.104772 |
-| MOEAFramework | 3.2 | http://moeaframework.org/downloads.html | NA |
 
 ## :file_folder: Folders 
 - `bootstrapping` Contains all code required to bootstrap the full set of 1000 DU SOWs.
@@ -98,7 +100,7 @@ Create a new folder in the main `implementation-uncertainty/` directory named ac
 2. Change lines 130 and 131 to reflect the compromise solution being analyzed.
 3. Change lines 133 to 147 to reflect the objectives and robustness files, and the compromise solution being analyzed.
 
-## :bar_chart: Reproduce figures 
+## :bar_chart: Reproduce the figures 
 1. Navigate to the `implementation-uncertainty/figure_generation/` directory.
 2. Execute each code file to generate its corresponding figure in the `Figures/` directory.
 
