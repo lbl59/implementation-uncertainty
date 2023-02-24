@@ -23,7 +23,7 @@ This GitHub repository contains the code and data needed to replicate the comput
 | ---------------- | --------- | ---------------- |------ |
 | Borg MOEA | NA | http://borgmoea.org/#contact | 10.1162/EVCO_a_00075 |
 | MOEAFramework | 3.3 | http://moeaframework.org/downloads.html | NA |
-| SALib | 1.4.7 | https://github.com/SALib/SALib | doi:10.18174/sesmo.18155 \n doi:10.21105/joss.00097 |
+| SALib | 1.4.7 | https://github.com/SALib/SALib | doi:10.18174/sesmo.18155 <br> doi:10.21105/joss.00097 |
 | WaterPaths | NA | https://github.com/bernardoct/WaterPaths.git | doi.org/10.1016/j.envsoft.2020.104772 |
 
 ## :file_folder: Folders 
