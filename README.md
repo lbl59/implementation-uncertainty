@@ -10,7 +10,7 @@ Lillian B. Lau<sup>1,*</sup>, Patrick M. Reed<sup>1</sup>, David F. Gold<sup>1</
 ## :memo: Cite us!
 To cite this paper, please use the following citation 
 ```
-This the the citation for the paper
+TBA
 ```
 
 ## :white_check_mark: Replicate our experiments and recreate our figures 
