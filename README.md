@@ -10,7 +10,7 @@ Lillian B. Lau<sup>1,*</sup>, Patrick M. Reed<sup>1</sup>, David F. Gold<sup>1</
 ## :memo: Cite us!
 To cite this paper, please use the following citation 
 ```
-Lau, L. B., Reed, P. M., & Gold, D. F. (2023). Evaluating implementation uncertainties and defining safe operating spaces for deeply uncertain cooperative multi-city water supply investment pathways. Water Resources Research, 59, e2023WR034841. https://doi-org.proxy.library.cornell.edu/10.1029/2023WR034841 
+Lau, L. B., Reed, P. M., & Gold, D. F. (2023). Evaluating implementation uncertainties and defining safe operating spaces for deeply uncertain cooperative multi-city water supply investment pathways. Water Resources Research, 59, e2023WR034841. https://doi.org/10.1029/2023WR034841
 ```
 
 ## :white_check_mark: Replicate our experiments and recreate our figures 
